@@ -1,8 +1,8 @@
-int startX = 30, startY=30, endX=80, endY=80;
+int startX = 30, startY=100, endX=80, endY=80;
 void setup()
 {
   size(300,300);
-  strokeWeight(10);
+  strokeWeight(3);
   background(186, 222, 218);
 }
 void draw()
@@ -19,8 +19,9 @@ void draw()
 }
 void mousePressed()
 {
+  background(186, 222, 218);
   startX = 30;
-  startY=30;
+  startY=100;
   endX=100;
   endY=200;
 }
