@@ -10,7 +10,7 @@ void setup()
 void draw()
 {
   stroke(Random*256);
-  while (startX < 300)
+  while ( endX < 300)
   {
     endX = startX + (Random * 10);
     endY = startY + (Random * 19 - 9);
